@@ -222,7 +222,6 @@ a:hover {
 }
 
 .profile-card__name-inbox img {
-  /* INBOX */
   height: 30px;
   width: 30px;
   cursor: pointer;
@@ -366,15 +365,12 @@ a:hover {
   color: white;
 }
 
-<<<<<<< HEAD
-=======
 .profile-card-social .askmitra {
   fill: #121830;
   color: #121830;
   background: white;
 }
 
->>>>>>> remotes/origin/master
 .profile-card-social .github:hover {
   box-shadow: 0px 3px 5px #000000;
   transition: .2s ease-in-out;
@@ -385,19 +381,13 @@ a:hover {
 }
 
 @media (hover: hover) {
-<<<<<<< HEAD
 
-=======
->>>>>>> remotes/origin/master
   .profile-card-social .linkedin:hover,
   .stackoverflow:hover,
   .upwork:hover,
   .twitter:hover,
-<<<<<<< HEAD
-  .instagram:hover {
-=======
-  .instagram:hover, .askmitra:hover{
->>>>>>> remotes/origin/master
+  .instagram:hover,
+  .askmitra:hover {
     box-shadow: 0px 3px 5px #000000;
     transition: .2s ease-in-out;
     transform: scale(1.1);
@@ -1074,7 +1064,6 @@ div.exp-item {
   }
 
   .profile-card__name-inbox img {
-    /* INBOX */
     height: 25px;
     width: 25px;
     margin: 0px 0px 0px 0px;
@@ -1112,19 +1101,16 @@ div.exp-item {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-<<<<<<< HEAD
     margin: 5px 40px 0px 40px;
   }
 
   .social_icon {
     margin: 0px 10px 0px 0px;
-=======
     margin: 5px 40px 10px 40px;
   }
 
   .social_icon {
     margin: 5px 10px 0px 0px;
->>>>>>> remotes/origin/master
     width: var(--social-button-sizeW__max600);
     height: var(--social-button-sizeH__max600);
     padding: var(--social-button-padding__max600);
